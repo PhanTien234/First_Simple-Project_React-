@@ -45,12 +45,12 @@ function App() {
   }, []);
   return (
     <>
-    <h3>Danh sach can lam</h3>
+    <h3>TO DO LIST</h3>
     <Textfield name="add-todo" 
-    placeholder="Them viec can lam..." 
+    placeholder="Add list need do..." 
     elemAfterInput={
       <Button isDisabled={!textInput} appearance="primary" onClick={onAddBtnClick}>
-        Them
+        Add
       </Button>
     }
     css={{padding: "2px 4px 2px"}}
